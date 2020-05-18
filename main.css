@@ -1,0 +1,75 @@
+/* Font sizing */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+body {
+    font-family: "Fira Code", monospace;
+}
+
+.size1 {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.size2 {
+    font-size: 24px;
+    line-height: 1.25;
+}
+
+.size3 {
+    font-size: 36px;
+    line-height: 1.125;
+}
+
+.color1 {
+    color: #D90467;
+}
+
+.color2 {
+    color: #F24BA7;
+}
+
+.color3 {
+    color: #0455BF
+}
+
+.color4 {
+    color: #023373;
+}
+
+
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.image-container {
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.image-container img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.nav-container {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 675px) {
+    .head-container {
+        display: flex;
+        align-items: center;
+        padding-top: 33px;
+        padding-bottom: 33px;
+    }
+
+    .nav-container {
+        width: initial;
+        padding-bottom: 33px;
+    }
+}
